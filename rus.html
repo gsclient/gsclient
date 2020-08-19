@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>GsClient Русская версия</title>
+	
+	<div class="parent">
+		<div class="block">
+			<h1>Особенности GsClient</h1>
+			<li>На основе GSClient</li>
+			<li>Чистая сборка cs 1.6 на основе оригинального Steam Build 8308</li>
+			<li>Без читов и вирусов</li>
+			<li>Возможность установить свой Аватар</li>
+			<li>Защита от порчи клиента</li>
+			<li>Добавлена блокировка запрещенных команд от сервера</li>
+			<li>Увеличена скорость загрузки файлов с сервера</li>
+			<li>Исправлены все баги и уязвимости клиента</li>
+			<li>Оптимизированы настройки клиента для игры без лагов</li>
+			<li>Качественные Steam HD модели</li>
+			<li>Лучшие сервера cs 1.6 в поиске</li>
+			<li>Автоматическое обновление игры как в steam</li>
+			<li>Поддержка работы на Windows XP/7/8/10</li>
+			<li>Добавлен флаг языка раскладки клавиатуры</li>
+			<li>Запуск в режиме Steam (требуется наличие игры на аккаунте)</li>
+			<li>Дублируется цвет чата в консоль</li>
+			<li>Исправлено положение ввода текста чата в режиме наблюдателя</li>
+			<li>Добавлены умные боты из ReGameDLL</li>
+			<li>Боты могут работать в режиме DM</li>
+			<li>Добавлен античит в клиент</li>
+			<li>В консоли доступен русский язык</li>
+			<li>В настройках можно установить русский ник</li>
+			<li>Ресурсы скачиваются в папку cstrike_downloads</li>
+			<li>Скриншоты и демки сохраняются в папку cstrike_downloads</li>
+			<li>Быстрое сворачивание и разворачивание игры</li>
+			<li>Поддерживается оконный режим</li>
+			<li>Добавлена русская озвучка радио команд</li>
+			<li>Добавлена русская озвучка ботов</li>
+			<li>Добавлена русская озвучка заложников</li>
+			<li>Рабочие вкладки Избранное и История</li>
+			<li>Исправлена позиция чата при скрытии радара</li>
+			<li>Улучшена генерация SteamID по железу</li>
+			<li>Улучшено качество голосового чата</li>
+			<h2><a href="https://gsclient.com/rus.php">Скачать GsClient</a></h2>
+		</div>
+	</div>
+	
+	<!--Responsiveness-->
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    
+	<!--FontAwesome-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+    <![endif]-->
+	
+	<!--CSS Style-->
+    <link href="css/demo.css" rel="stylesheet" type="text/css" />
+    <link href="css/ace-responsive-menu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="demo">
+
+    <br/>
+   
+    <!-- Ace Responsive Menu -->
+    <nav>
+        <!-- Menu Toggle btn-->
+        <div class="menu-toggle">
+            <h3>Menu</h3>
+            <button type="button" id="menu-btn">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <!-- Responsive Menu Structure-->
+        <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+        <ul id="respMenu" class="ace-responsive-menu" data-menu-style="accordion">
+              <li>
+                <a href="index.html">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span class="title">Главная</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="fa fa-cube" aria-hidden="true"></i>
+                    <span class="title">Классические сборки</span>
+		    <span class="arrow"></span> 
+                </a>
+                <!-- Level Two-->
+                <ul>
+                    <li>
+                        <a href="rus.html">Русская версия</a>
+                    </li>
+                    <li>
+                        <a href="eng.html">Английская версия</a>
+                    </li>
+
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <!-- End of Responsive Menu -->
+    </div>
+
+    <!--Scripts-->
+    <script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+    <script src="js/ace-responsive-menu.js" type="text/javascript"></script>
+	
+	<!--Plugin Initialization-->
+     <script type="text/javascript">
+         $(document).ready(function () {
+             $("#respMenu").aceResponsiveMenu({
+                 resizeWidth: '768', // Set the same in Media query       
+                 animationSpeed: 'fast', //slow, medium, fast
+                 accoridonExpAll: false //Expands all the accordion menu on click
+             });
+         });
+	</script>
+
+</body>
+</html>
